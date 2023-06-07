@@ -1,4 +1,0 @@
-$ git init
-Initialized empty Git repository in ~/djangoboys/.git/
-$ git config --global user.name "Gold900"
-$ git config --global user.email kaprin@bk.ru
