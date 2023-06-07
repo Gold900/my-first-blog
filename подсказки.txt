@@ -1,0 +1,13 @@
+$ python3 -m venv myvenv
+$ source myvenv/bin/activate
+
+
+$ django-admin startproject mysite .
+$ python3 manage.py migrate
+$ python3 manage.py runserver 0.0.0.0:8000
+
+$ python3 manage.py startapp blog
+$ python3 manage.py makemigrations blog
+$ python3 manage.py migrate blog
+
+$ python3 manage.py createsuperuser
